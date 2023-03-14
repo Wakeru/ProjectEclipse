@@ -1,2 +1,2 @@
 # ProjectEclipse
-This is a personal project among students
+This is a personal project among students!
