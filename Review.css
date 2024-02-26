@@ -1,0 +1,145 @@
+
+#feedback {
+    max-width: 60%;
+    width: 100%;
+    margin: 10px auto;
+    padding: 20px;
+    border: solid 1px #f1f1f1;
+    background: #ffffff;
+    box-shadow: #5b5a5a 0 0 4px ;
+    border-radius: 0.25rem;
+  }
+  
+  @media (max-width: 720px) {
+    #feedback{
+      max-width: 90%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    #feedback{
+      padding: 10px;
+    }
+  }
+  
+  #fh2{
+   padding: 2px 15px;
+   color: #000000;
+   text-align: center;
+   
+   
+  }
+  
+  @media (max-width: 400px) {
+    #fh2{
+      font-size: 20px;
+    }
+  }
+  
+  
+  #fh6 {
+   padding: 2px 15px;
+   color: #000000;
+   text-align: center;
+   font-weight: normal;
+  }
+  
+  @media (max-width: 400px) {
+    #fh6{
+      font-size: 12px;
+    }
+  }
+  
+  .pinfo {
+   margin: 8px auto;
+   font-weight: bold;
+   line-height: 1.5;
+   color: #000000;
+  }
+  .form-group {
+    margin-bottom: 1rem;
+  }
+    
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    font-weight: bold;
+    color: #6C6262;
+    background-color: #fff;
+    background-image: none;
+    -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  }
+  
+  .form-control::-ms-expand {
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .form-control:focus {
+    color: #696060;
+    background-color: #fff;
+    border-color: #5cb3fd;
+    outline: none;
+  }
+  
+  .form-control::-webkit-input-placeholder {
+    color: #F34949;
+    opacity: 1;
+  }
+  
+  .form-control::-moz-placeholder {
+    color: brown;
+    opacity: 1;
+  }
+  
+  .form-control:-ms-input-placeholder {
+    color: blue;
+    opacity: 1;
+  }
+  
+  .form-control::placeholder {
+    color: white;
+    opacity: 1;
+  }
+  
+  .form-control:disabled, .form-control[readonly] {
+    background-color: red;
+    opacity: 1;
+  }
+  
+  .form-control:disabled {
+    cursor: not-allowed;
+  }
+  
+  select.form-control:not([size]):not([multiple]) {
+    height: calc(2.25rem + 2px);
+  }
+  
+  select.form-control:focus::-ms-value {
+    color: green;
+    background-color: #000000;
+  }
+  
+  .form-control-file,
+  .form-control-range {
+    display: block;
+  }
+  
+  .input-group {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }

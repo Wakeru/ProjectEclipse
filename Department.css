@@ -1,0 +1,136 @@
+body{
+    background-color: #23395d;/*Test to see if it works!*/
+    color: white;
+
+}
+/* NAVIGATION BAR */
+#navigation-container {  /*Id Selector*/
+    width: 1200px;
+    margin: 0px;
+    height: 70px;
+}
+
+.navigation-bar { /*Class Selector*/ 
+    height: 70px;
+    width: 100%;
+    text-align:center;
+}
+
+.navigation-bar img{ /*Specifying which Element in the Class*/ 
+    float:left;
+    margin-top: -10px;
+    margin-left: 60px;
+    width: 180px;
+    /*background-color: green; This was was to see the boundary and how much i had to move the image!*/
+
+}
+
+.navigation-bar ul { /*Unordered list element in Class navigation bar*/
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+    
+  }
+  
+  .navigation-bar li {  /*list element in Class navigation bar*/
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+}
+.navigation-bar li a {/*Hyperlink element in list element in Class navigation bar*/
+    color: white;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 15px;
+    opacity: 0.7;
+    margin-left: 0px;
+}
+.LOGIN button {
+    float: right;
+    font-family: Helvetica;
+    border-radius: 5px;
+    border: groove;
+    background-color: #23395d;
+    color: white;
+    padding: 15px 64px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: -170px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+
+/*COLLAPSIBLE BUTTONS */
+.collapsible{
+    border: groove;
+    border-radius: 10px;
+}
+
+#campus_button {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 75%;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin-top: 10px;
+}
+  
+#dept_button {
+    background-color: #C21807;
+    color: white;
+    cursor: pointer;
+    padding: 16px;
+    width: 600px;
+    border: none;
+    text-align: left;
+    outline-color: black;
+    outline-width: 2px;
+    font-size: 15px;
+    margin: 10px;
+}
+#professor_button {
+    background-color: #708238;
+    color: white;
+    cursor: pointer;
+    padding: 16px;
+    width: 400px;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    margin: -10px;
+    margin-right: 100px;
+}
+.active, .collapsible:hover {
+    background-color: #555;
+}
+  
+.content {
+    text-align: center;
+    padding: 16px;
+    display: none;
+    overflow: hidden;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    width: 72.5%;
+    margin-left: 180px;
+}
+
+#button2{
+    background-color: green;
+}

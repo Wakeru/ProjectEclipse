@@ -1,0 +1,33 @@
+just a file for any issues or whatnot.
+
+VISON: to make a rate my professor but only within the campuses of rutgers!
+
+
+#STEPS
+
+opt = optional
+time = time consuming
+WIP = work in progress
+OP = optional
+
+--Make Login in page!-- DONE ONLY RUTGERS FACULTY CAN SIGN IN
+Make error sign in page [anytime they sign in with same credentials, they get an error] (time)
+Make error log in page [mispelled or doesnt have that in the database or whatnot] (time)
+
+Make rate my professor posts and features(WIP) & (TIME)
+    Make Home Page (DONE!)
+    Make information
+    Make rating
+    Make posts
+    Make Comments (opt)
+    Make student service (opt)
+    
+
+Make admin login (TIME CONSUMING TO THE MAX)
+    Make database(DONE KINDA) IDK HOW TO RUN THE FILE
+    access for looking  usersnames and passwords
+    a button to find or delete a user
+    a button to reset everything
+
+FINAL
+DO CSS AND FLESH IT OUT(TIME)

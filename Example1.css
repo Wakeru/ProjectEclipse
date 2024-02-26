@@ -1,0 +1,230 @@
+body{
+    background-color: #23395d;/*Test to see if it works!*/
+    color: white;
+    text-align: center;
+
+}
+/*NAVIGATION BAR*/
+/* NAVIGATION BAR */
+#navigation-container {  /*Id Selector*/
+    width: 1200px;
+    margin: 0px;
+    height: 70px;
+}
+
+.navigation-bar { /*Class Selector*/ 
+    height: 70px;
+    width: 100%;
+    text-align:center;
+}
+
+.navigation-bar img{ /*Specifying which Element in the Class*/ 
+    float:left;
+    margin-top: -10px;
+    margin-left: 60px;
+    width: 180px;
+    /*background-color: green; This was was to see the boundary and how much i had to move the image!*/
+
+}
+
+.navigation-bar ul { /*Unordered list element in Class navigation bar*/
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+    
+  }
+  
+  .navigation-bar li {  /*list element in Class navigation bar*/
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+}
+.navigation-bar li a {/*Hyperlink element in list element in Class navigation bar*/
+    color: white;
+    font-size: 16px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 15px;
+    opacity: 0.7;
+    margin-left: 0px;
+}
+.LOGIN button {
+    float: right;
+    font-family: Helvetica;
+    border-radius: 5px;
+    border: groove;
+    background-color: #23395d;
+    color: white;
+    padding: 15px 64px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: -170px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SPACE*/
+.container{
+    width: 100%;
+    color: white;
+    height: 350px;
+    
+}
+.prof_details{
+    
+    padding: 0px 110px;
+    width: 500px;
+    float: left;
+    
+}
+.tags_container{
+    width: 380px;
+    padding:75px 160px;
+    float: right;
+
+}
+.tags_container #tag_title{
+    font-size: 25px;
+}
+.tags{
+    padding: 0px 10px;
+    color: black;
+    background-color: blanchedalmond;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+
+}
+.tags2{
+    padding: 0px 10px;
+    color: black;
+    background-color: blanchedalmond;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.tag_row1{
+    padding: 0px;
+    float: left;
+}
+.tag_row2{
+    padding: 0px;
+    float: right;
+}
+.tag_rows_container{
+    padding: 120px 0px;
+    padding-top: 0px;
+    width: 100%;
+}
+
+.prof_details_cont{
+    padding: 6px;
+    text-align: center;
+}
+.prof_name{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding: 0px 200px;
+    text-align: center;
+}
+
+.prof_details #rate{
+    font-size: 40px;
+    color: red;
+}
+
+.prof_details #Diff_rate{
+    color: red;
+    font-size: 30px;
+
+}
+
+.rate{
+    padding: 0px 0px;
+    background-color: red;
+    text-align: center; /* This is outside the rows but still being affected by the float*/
+    /*Cannot really move it until i put the rows in their own container*/
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+/*COMMENTS SECTION*/
+
+.comment_container{
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+.comment_container h2{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family:  Helvetica, sans-serif;
+
+}
+.comment_post{
+    background-color: pink;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+.comment_bar {
+    width: 100%;
+    
+}
+
+.comment_bar li{
+    display: inline;
+    margin-right: 30px;
+    font-size: large;
+
+}
+.comment_bar p{
+    font-size: larger;
+}
+.comment_bar #tag_comment{
+    background-color: white;
+    display: inline;/*This takews away the bullet points*/
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+
+}
+.comment_bar p{
+    float: left;
+}

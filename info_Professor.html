@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post
+    </title>
+</head>
+<body>
+    <center> <!-- Center tag to center anything underneath it-->
+        <h1>Professor Info Form!</h1> <!--A header-->
+        
+        <form action="/insert.php" method="POST">
+            <table>
+                <tr>
+                    <td>First Name: </td> <!--Label is like making a varibale-->
+                    <td><input type="text" id="F_name" name="F_name" placeholder="First Name" required></td>
+                </tr>
+
+                <tr></tr>
+                    <td>Last Name: </td>
+                    <td><input type="text" id="L_name" name="L_name" placeholder="Last Name" required></td>
+                      <!-- With no label, same difference, but we need label in order to keep the information from the user inputs-->
+                </tr>
+
+                <tr>
+                    <td>Professors Rutgers Email (Optional): </td>
+                    <td><input type="email" id="Email" name="Email" placeholder="abc01@scareletmail.rutgers.edu"></td>
+                    
+                </tr>
+
+                <tr>
+                    <td>Which Campus:</td>
+                    <td>
+                    <input type="radio" id="New_Brusnwick" name="campus" value="New_Brusnwick" required>New Brusnwick
+                    <input type="radio" id="Newark" name="campus" value="Newark" required>Newark
+                    <input type="radio" id="Camden" name="campus" value="Camden" required>Camden
+                    </td>
+        
+                </tr>
+                    Choose Department: 
+                    <select name="department" id="department">
+                      <option value="english">English</option>
+                      <option value="mathematics">Mathematics</option>
+                      <option value="computer science">Computer Science</option>
+                      <option value="criminal justice">Criminal Justice</option>
+                    </select>
+                    <br><br>
+                    <td><input type="submit" value="Submit"></td>
+                
+                </tr>
+            </table>
+        </form>
+
+        <a href="Rating.html">
+            <button type="button">Rate!</button>
+        </a>
+
+        <a href="EclipsePost.html">
+            <button type="button">Go Back to Posts!</button>
+        </a>
+    </center>
+    
+
+</body>
+</html>

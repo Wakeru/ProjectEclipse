@@ -1,0 +1,71 @@
+<!--web page showing what would happen if the databse works!-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="Department.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Posts!
+    </title>
+</head>
+<body>
+    <div class="navigation-bar">
+
+
+        <div id="navigation-container">
+
+        <img src="/images/rutgers-logo.png">
+
+        <ul>
+            <li><a href="HomePage.html">Home</a></li>
+            <li><a href="Department.html">Departments</a></li>
+            <li><a href="Campus.html">Campus</a></li>
+            <li><a href="EclipsePost.html">Posts</a></li>
+        </ul>
+        <a href="Eclipse_SignIn.html" class="LOGIN">
+            <button type="button">LOG IN</button>
+        </a>
+    </div>
+
+    <div class = "title">
+        <h1>Deparments</h1> <!--A header-->
+        Choose Your Campus     
+        <br><br>
+    </div>
+
+    <button type="button" id="campus_button" class="collapsible">New Brunswick</button>
+    <div class="content">
+        <button type="button" id="dept_button" class="collapsible">department1</button>
+        <div class="content">
+            <p>some text</p>
+        </div>
+    </div>
+
+    <button type="button" id="campus_button" class="collapsible">Newark</button>
+    <div class="content">
+        <button type="button" id="dept_button" class="collapsible">Accounting</button>
+        <div class="content">
+            <a href="Example1.html">
+                <button type="button" id="professor_button" class="collapsible">Michael Alles</button>
+            </a>
+        </div>
+    
+        <button type="button" id="dept_button" class="collapsible">Aerospace Engineering</button>
+        <div class="content">
+            <a href="Review2.html">
+                <button type="button" id="professor_button" class="collapsible">Prosenjit Bagchi</button>
+            </a>
+        </div>
+    </div>
+
+    <button type="button" id="campus_button" class="collapsible">Camden</button>
+    <div class="content">
+        <p>some text and heres a random <a href="info_Professor.html">professor!</a> </p>
+        <a href="info_Professor.html">professor!</a>
+        
+    </div>
+    <script src="Collapse.js"></script> <!--Script for the collapsible-->
+
+</body>
+</html>
